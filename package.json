@@ -1,0 +1,19 @@
+{
+    "name":"mapugo",
+    "version":"0.0.1",
+    "dependencies":{
+        "express":"3.0.0",
+        "connect-flash": "0.1.x",
+        "mongodb":"1.2.x",
+        "mongojs":"0.4.x",
+        "socket.io":"0.9.x",
+        "jade":">=0.0.1",
+        "passport":">=0.1.15",
+        "passport-local":">=0.0.0",
+        "formidable":">=0.0.0"
+    },
+    "engines":{
+        "node":">=0.8.x",
+        "npm":">=1.1.x"
+    }
+}

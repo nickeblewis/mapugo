@@ -1,0 +1,10 @@
+<div id="body">              
+  <div>
+    <div id="placescontainer">
+      <div ng-repeat='image in images | filter:search' class="itemcell" ng-mouseover="mouseover(image)" ng-click='panToLocation(image)'>
+        <h3><a href="#/details/{{image._id}}">{{image.name}}</a></h3>
+        <p>{{image.synopsis}}</p>
+      </div><!-- end of ng-repeat -->
+    </div><!-- end of places container -->
+  </div><!-- end of pointless div???? -->
+</div><!-- end of body -->
